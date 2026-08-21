@@ -1,7 +1,6 @@
 services:
   app:
-    build:
-      context: .
+    image: "princetyagicyber/node.js:latest"
       dockerfile: Dockerfile
     restart: unless-stopped
     ports:
